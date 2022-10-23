@@ -1,0 +1,29 @@
+.guide {
+  background-color: #fffaf4;
+}
+.description {
+  padding: 3%;
+}
+.title {
+  font-size: 40px;
+}
+
+.line {
+  background-color: black;
+  height: 1px;
+  margin-top: 10px;
+}
+
+.content {
+  font-size: 20px;
+  margin-bottom: 6%;
+}
+
+.game {
+  display: flex;
+}
+
+.game-thumbnail {
+  width: 250px;
+  padding: 15px;
+}

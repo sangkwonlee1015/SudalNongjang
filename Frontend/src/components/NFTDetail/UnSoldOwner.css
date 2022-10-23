@@ -1,0 +1,14 @@
+.react-datetime-picker {
+    border: 2px solid #895737;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.react-datetime-picker__wrapper {
+    border: 0;
+}
+
+.request-btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+}

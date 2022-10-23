@@ -1,0 +1,14 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auction-title {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.auction-owner, .auction-address {
+    display: flex;
+    justify-content: space-between;
+}

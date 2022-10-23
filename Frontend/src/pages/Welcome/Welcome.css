@@ -1,0 +1,98 @@
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 배경 이미지 */
+.back::after {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("../../assets/images/main.jpg");
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* 수달농장 */
+.home-title {
+    height: 100px;
+}
+.home-title span {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-size: 80px;
+    color: #5E3023;
+    text-shadow: 0 1px 0 #FFFAF4,
+                0 2px 0 #FFFAF4,
+                0 3px 0 #C08552,
+                0 4px 0 #C08552,
+                0 5px 0 #C08552,
+                0 6px 0 transparent,
+                0 7px 0 transparent,
+                0 8px 0 transparent,
+                0 9px 0 transparent,
+                0 10px 10px rgba(0, 0, 0, .4);
+}
+
+.home-title span:nth-child(2) { animation-delay: .1s; }
+.home-title span:nth-child(3) { animation-delay: .2s; }
+.home-title span:nth-child(4) { animation-delay: .3s; }
+.home-title span:nth-child(5) { animation-delay: .4s; }
+
+@keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #FFFAF4,
+                   0 2px 0 #FFFAF4,
+                   0 3px 0 #C08552,
+                   0 4px 0 #C08552,
+                   0 5px 0 #C08552,
+                   0 6px 0 #C08552,
+                   0 7px 0 #C08552,
+                   0 8px 0 #C08552,
+                   0 9px 0 #C08552,
+                   0 50px 25px rgba(0, 0, 0, .2);
+    }
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DAB49D;
+    background-color: #DAB49D;
+    width: 200px;
+    height: 65px;
+    font-size: 24px;
+    border-radius: 10px;
+    font-family: 'neo';
+    margin: 0 auto;
+}
+
+.main-btn > a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.main-btn > a > img {
+    height: 60px;
+}
+
+.main-btn:hover {
+    background-color: #5E3023;
+    color: white;
+}
+
+.main-btn:hover > a {
+    color: white;
+}
+

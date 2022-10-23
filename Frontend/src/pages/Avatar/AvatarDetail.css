@@ -1,0 +1,12 @@
+.detail-content {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    min-width: 1023px;
+}
+
+.sale-wrap {
+    margin-left: 70px;
+    width: 460px;
+}

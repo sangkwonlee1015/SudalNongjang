@@ -1,0 +1,123 @@
+.mainPage {
+  background-image: url("../../assets/images/main.jpeg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  z-index: -1;
+  
+}
+.menuDiv{
+  position:absolute;
+  width : 100%;
+  height: 100%;
+}
+/* shop */
+.shopBox {
+  position: relative;
+ width:20%;
+ height:20%;
+  top: 70%;
+ left : 10%;
+ padding : 10px;
+ cursor:pointer;
+}
+
+.shopBox > img{
+  position : absolute;
+  width : 100%;
+  height: 100%;
+
+}
+
+.shopBox > span {
+  position : absolute;
+  transform: translate(-50%, -50%);
+  left: 55%;
+  top :50%;
+  text-align: center;
+  font-size: 2vw ;
+}
+/* game */
+.gameBox {
+ position: relative;
+ width:20%;
+ height:20%;
+ top:15%;
+ left: 40%;
+ padding : 10px;
+ cursor:pointer;
+}
+
+.gameBox > img{
+  position : absolute;
+  width : 100%;
+  height: 100%;
+  transform: scaleX(-1);
+  
+}
+
+.gameBox > span {
+  position : absolute;
+  transform: translate(-50%, -50%);
+  left: 54%;
+  top :50%;
+  text-align: center;
+  font-size: 2vw;
+
+}
+
+/* item */
+.itemBox {
+  position: relative;
+ width:20%;
+ height:20%;
+top:20%;
+ left : 50%;
+ padding : 10px;
+ cursor:pointer;
+}
+
+.itemBox > img{
+  position : absolute;
+  width : 100%;
+  height: 100%;
+  
+}
+
+.itemBox > span {
+  position : absolute;
+  transform: translate(-50%, -50%);
+  left: 55%;
+  top :50%;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.guideBox {
+  position: relative;
+ width:20%;
+ height:20%;
+  top : -10%;
+ left: 70%;
+ padding : 10px;
+ cursor:pointer;
+}
+
+.guideBox > img{
+  position : absolute;
+  width : 100%;
+  height: 100%;
+  transform: scaleX(-1);
+ 
+}
+
+.guideBox > span {
+  position : absolute;
+  transform: translate(-50%, -50%);
+  left: 54%;
+  top :50%;
+  text-align: center;
+  font-size: 2vw;
+}

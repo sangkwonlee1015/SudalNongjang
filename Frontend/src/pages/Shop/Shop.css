@@ -1,0 +1,61 @@
+.shop {
+  background-color: #fffaf4;
+  padding: 5%;
+}
+.shop-title {
+  font-size: 40px;
+}
+
+.line {
+  background-color: black;
+  height: 1px;
+  margin-top: 10px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.tabs {
+  color: "black";
+  font-family: "neo";
+}
+
+.card {
+  font-family: "neo";
+}
+
+.sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #5e3023;
+  border-radius: 3px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 150px;
+  font-size: 20px;
+}
+
+.owner {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}

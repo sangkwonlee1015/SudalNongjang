@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'neo';
+  src: url('./assets/fonts/neodgm.woff') format("truetype")
+}
+
+body {
+  background-color: #fffaf4;
+  margin: 0;
+  font-family: 'neo';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

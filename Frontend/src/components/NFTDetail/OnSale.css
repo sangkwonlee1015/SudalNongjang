@@ -1,0 +1,71 @@
+/* 분양 정보, 입찰내역 */
+.sale-info > h3, .bid-log > h3, .sell-request > h3 {
+    font-size: 23px;
+}
+
+/* 진행기간 */
+.auction-date {
+    font-size: 20px;
+}
+
+/* 분양정보, 가격, 입찰리스트 간의 간격 */
+.price-info, .sale-info, .bid-log, .sell-request{
+    margin: 30px 0;
+}
+
+.current, .bid, .bid-title, .sell-end-date {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sell-end-date {
+    margin: 20px 0;
+}
+
+.current {
+    padding-bottom: 20px;
+}
+
+.bid > span {
+    line-height: 35px;
+    width: "60px"
+}
+
+.bid-input {
+    height: 30px;
+    border: 1px solid #895737;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+
+.bid-input:focus {
+    outline: 0;
+    background-color: #f2d5c3;
+}
+
+/* 입찰버튼 */
+.bid-btn, .request-btn {
+    width: 70px;
+    height: 35px;
+    font-size: 15px;
+    font-family: 'neo';
+    background: #DAB49D;
+    border: 1px solid #DAB49D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.request-btn{
+    width: 95px;
+}
+
+.bid-tr {
+    display: flex;
+    width: 460px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 10px 0;
+}

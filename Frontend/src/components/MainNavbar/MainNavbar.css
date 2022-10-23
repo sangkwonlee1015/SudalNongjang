@@ -1,0 +1,32 @@
+.mainNavbar {
+  background-color: #c08552;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  align-items: center;
+  z-index: 10;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.login {
+  cursor: pointer;
+}
+.logoImg {
+  width: 80px;
+  padding: 10px;
+}
+.myPage {
+  margin-right: 10px;
+}
+.account {
+  display: flex;
+  justify-items: center;
+}

@@ -1,0 +1,165 @@
+.card-game-box {
+    width: 1410px;
+    margin: 0 auto;
+}
+
+.card-game-box > :nth-child(1) {
+    margin: 40px auto 0;
+    width: 95%;
+}
+
+.card-wrap {
+    width: 200px;
+    height: 250px;
+    perspective: 1100px;
+    display: inline-block;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: .4s;
+    transform-style: preserve-3d;
+}
+
+.card-wrap > img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-front {
+    background: #895737;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-back { 
+    transform: rotateY(180deg);
+}
+
+.flip-front {
+    transform: rotateY(180deg);
+}
+
+/* 게임 시작후 배경 */
+.card-game-wrap {
+    width: 1400px;
+    height: 900px;
+    display: flex;
+    margin: 25px auto 50px auto;
+    align-items: center;
+    background-color: #DAB49D;
+}
+/* 시작전 배경 */
+.card-game-before {
+    width: 1400px;
+    height: 900px;
+    position: relative;
+    margin: 25px auto 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #dab49d;
+}
+
+.card-game-after {
+    width: 1400px;
+    height: 900px;
+    position: relative;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/images/CardGame/back.png');
+}
+
+.card-end {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    line-height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+.card-end > p {
+    margin: 0;
+    height: 30px;
+    width: 302px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.card-end > p:nth-child(1) {
+    font-size: 24px;
+}
+.card-end > p:nth-child(2) {
+    font-size: 20px;
+}
+
+/* 다시하기 버튼 */
+.card-end-btn {
+    background: #dab49d;
+    border: 1px solid #895737;
+    border-radius: 5px;
+    font-family: 'neo';
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    margin-top: 10px;
+    
+}
+
+.card-end-btn:hover {
+    animation-name: shake;
+    animation-duration: 0.6s;
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-8deg);
+    }
+
+    50% {
+        transform: rotate(8deg);
+    }
+    
+    75% {
+        transform: rotate(-8deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.card-game-flex {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.end-comment {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    margin-top: 300px;
+    top: 20%;
+}

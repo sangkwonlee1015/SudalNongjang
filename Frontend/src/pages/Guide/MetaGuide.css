@@ -1,0 +1,13 @@
+.meta-guide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.meta-guide-wrap {
+    width: 800px;
+}
+
+.meta-guide-img {
+    width: 100%;
+}

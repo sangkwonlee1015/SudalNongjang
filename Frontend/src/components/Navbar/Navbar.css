@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #c08552;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.menuItem {
+  padding: 14px;
+
+  margin-right: 50px;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  width: 80px;
+  padding-right: 130px;
+}
